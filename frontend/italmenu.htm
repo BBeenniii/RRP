@@ -1,0 +1,243 @@
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Italmenü</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        #italmenu {
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            max-width: 800px;
+        }
+
+        #italmenu h2 {
+            margin-bottom: 20px;
+            text-align: center;
+            color: #333;
+        }
+
+        #italmenu h3 {
+            margin-top: 20px;
+            color: #666;
+        }
+
+        #italmenu ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #italmenu ul li {
+            margin-bottom: 10px;
+        }
+
+        #italmenu ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        #italmenu table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        #italmenu th, #italmenu td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        #italmenu th {
+            background-color: #f2f2f2;
+            color: #333;
+            font-weight: bold;
+        }
+
+        #italmenu td {
+            background-color: #fff;
+        }
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1; 
+        }
+
+        #background img {
+            width: 100% ;
+            height: auto;
+            object-fit: cover; 
+        }
+
+        #content {
+            padding: 20px; 
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div id="background">
+        <img src="img/italmenu.jpg" alt="Háttérkép">
+    </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="bemutatkozas.htm">Bemutatkozás</a></li>
+                <li><a href="index.html">Főoldal</a></li>
+                <li><a href="nyitvatartas.htm">Nyitvatartás</a></li>
+                <li><a href="kapcsolat.htm">Kapcsolat</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="italmenu">
+        <h2>Italmenü</h2>
+        <h3>Kategóriák</h3>
+        <ul>
+            <li><a href="#sorok">Sörök</a></li>
+            <li><a href="#koktelok">Koktélok</a></li>
+            <li><a href="#borok">Borok</a></li>
+            <li><a href="#mentes">Alkoholmentes italok</a></li>
+        </ul>
+
+        <h3 id="sorok">Sörök</h3>
+        <table>
+            <tr>
+                <th>Név</th>
+                <th>Alkoholtartalom</th>
+                <th>Ár</th>
+            </tr>
+            <tr>
+                <td>Kőbányai</td>
+                <td>4.5%</td>
+                <td>400 Ft</td>
+            </tr>
+            <tr>
+                <td>Löwenbrau</td>
+                <td>5%</td>
+                <td>410 Ft</td>
+            </tr>
+            <tr>
+                <td>Heinekken</td>
+                <td>6%</td>
+                <td>600 Ft</td>
+            </tr>
+            <tr>
+                <td>Pécsi Vágott</td>
+                <td>8%</td>
+                <td>1300 Ft</td>
+            </tr>
+        </table>
+
+        <h3 id="koktelok">Koktélok</h3>
+        <table>
+            <tr>
+                <th>Név</th>
+                <th>Alkoholtartalom</th>
+                <th>Ár</th>
+            </tr>
+            <tr>
+                <td>Mojito</td>
+                <td>12%</td>
+                <td>1200 Ft</td>
+            </tr>
+            <tr>
+                <td>Pina Colada</td>
+                <td>10%</td>
+                <td>1100 Ft</td>
+            </tr>
+            <tr>
+                <td>Sex on the Beach</td>
+                <td>8%</td>
+                <td>1000 Ft</td>
+            </tr>
+            <tr>
+                <td>Daiquiri</td>
+                <td>15%</td>
+                <td>1300 Ft</td>
+            </tr>
+        </table>
+
+        <h3 id="borok">Borok</h3>
+        <table>
+            <tr>
+                <th>Név</th>
+                <th>Alkoholtartalom</th>
+                <th>Ár</th>
+            </tr>
+            <tr>
+                <td>Béla és Bandi: Olaszrizling 2023</td>
+                <td>12%</td>
+                <td>2750 Ft</td>
+            </tr>
+            <tr>
+                <td>Takler: Syrah 2021</td>
+                <td>11%</td>
+                <td>3190 Ft</td>
+            </tr>
+            <tr>
+                <td>Nyakas: Irsai Olivér 2023</td>
+                <td>13%</td>
+                <td>2690 Ft</td>
+            </tr>
+            <tr>
+                <td>St. Andrea: Merengő 2021</td>
+                <td>14%</td>
+                <td>11 900 Ft</td>
+            </tr>
+        </table>
+
+        <h3 id="mentes">Alkoholmentes italok</h3>
+        <table>
+            <tr>
+                <th>Név</th>
+                <th>Alkoholtartalom</th>
+                <th>Ár</th>
+            </tr>
+                    <td>Coca Cola</td>
+                    <td>0%</td>
+                    <td>450 Ft</td>
+                </tr>
+                <tr>
+                    <td>Narancslé</td>
+                    <td>0%</td>
+                    <td>600Ft</td>
+                </tr>
+                <tr>
+                    <td>Fanta</td>
+                    <td>0%</td>
+                    <td>450 Ft</td>
+                </tr>
+                <tr>
+                    <td>Dr Pepper</td>
+                    <td>0%</td>
+                    <td>700Ft</td>
+                </tr>
+            </tr>
+        </table>
+    </section>
+</body>
