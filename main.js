@@ -23,4 +23,4 @@ document.querySelector('#app').innerHTML = `
 
 setupCounter(document.querySelector('#counter'))
 
-//test 2
+//test 3
